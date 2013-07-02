@@ -62,22 +62,22 @@ Changelog:
 
 #include <a_samp>
 
-#include "..\YSI-Server\y_scriptinit"
-#include "..\YSI-Data\y_playerarray"
+#include "..\YSI_Server\y_scriptinit"
+#include "..\YSI_Data\y_playerarray"
 
-#include "..\YSI-Coding\y_stringhash"
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Coding\y_remote"
+#include "..\YSI_Coding\y_stringhash"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Coding\y_remote"
 
-#include "..\YSI-Storage\y_amx"
+#include "..\YSI_Storage\y_amx"
 
-#include "..\YSI-Data\y_iterate"
+#include "..\YSI_Data\y_iterate"
 
 //#include "..\y_master"
 #define YSIM_U_DISABLE
-#include "..\YSI-Core\y_master"
+#include "..\YSI_Core\y_master"
 
-#include "..\YSI-Coding\y_hooks"
+#include "..\YSI_Coding\y_hooks"
 //#include "y_groups/setup"
 
 /**--------------------------------------------------------------------------**\

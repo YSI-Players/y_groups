@@ -54,8 +54,8 @@ Changelog:
 		First version
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_compilerpass"
-#include "..\YSI-Data\y_bit"
+#include "..\YSI_Internal\y_compilerpass"
+#include "..\YSI_Data\y_bit"
 
 #define _GROUP_LOCAL_NAME               _GROUP_MAKE_TAG:e
 

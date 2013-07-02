@@ -54,7 +54,7 @@ Changelog:
 		First version
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
 #if !defined _inc_y_groups
 	#error Did you do <YSI/y_groups> instead of the required <YSI\y_groups>?
@@ -62,7 +62,7 @@ Changelog:
 #undef _inc_y_groups
 
 // Get basic defines.
-#include "..\YSI-Internal\y_plugins"
+#include "..\YSI_Internal\y_plugins"
 #include "y_groups/setup"
 #include "y_groups/impl"
 
@@ -77,7 +77,7 @@ Changelog:
 		#else
 			#define _GROUP_MAKE_TAG _
 		#endif
-		#include "..\YSI-Players\y_groups\_funcs"
+		#include "..\YSI_Players\y_groups\_funcs"
 		// Now remove the defines.
 		#if defined GROUP_LIBRARY_TAGS
 			#undef GROUP_LIBRARY_TAGS
@@ -109,6 +109,6 @@ stock _YSI_HAS_y_groups(_do_not_call_me_ever_, _like_never_)
 }
 
 #if defined YSI_TESTS
-	#include "..\YSI-Core\y_testing"
+	#include "..\YSI_Core\y_testing"
 	#include "y_groups/tests"
 #endif

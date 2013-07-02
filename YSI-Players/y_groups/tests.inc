@@ -141,7 +141,7 @@ Test:y_groups_Set3()
 #define GROUP_LIBRARY_NAME<%0...%1> %0Test%1
 #define GROUP_LIBRARY_SIZE 100
 
-#include "..\YSI-Players\y_groups"
+#include "..\YSI_Players\y_groups"
 
 static
 	gPl,
