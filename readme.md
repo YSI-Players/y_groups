@@ -1,3 +1,40 @@
+# y_groups
+
+Provides an abstraction for various collections of players; including factions, teams, admin levels, and more.  Allows for a single consistent interface, with support in many other YSI libraries allowing for permissions to be set on a per-group level for most features.
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_groups-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Players/y_groups)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Players/y_groups
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Players/y_groups>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Players/y_groups/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Players/y_groups/features.md) - More features and examples.
+* [FAQs](YSI-Players/y_groups/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Players/y_groups/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Players/y_groups/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +146,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_groups
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_groups-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Players/y_groups)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Players/y_groups
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Players/y_groups>
-```
-
-## Usage
-
-[Click Here] (YSI-Players/y_groups.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 
